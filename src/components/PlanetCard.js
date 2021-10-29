@@ -13,7 +13,7 @@ class PlanetCards extends Component {
   }
 }
 
-PlanetCards.prototypes = {
+PlanetCards.propTypes = {
   planetName: PropTypes.string.isRequired,
   planetImage: PropTypes.string.isRequired,
 };
